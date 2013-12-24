@@ -1,0 +1,23 @@
+@media (max-width: 979px) {
+  .aui .dockbar .navbar-inner .container #_145_navAddControlsNavbarBtn, .aui .dockbar .navbar-inner .container #_145_navSiteNavigationNavbarBtn {
+    display: none; }
+  .aui .dockbar .navbar-inner .container .brand {
+    font-size: 16px;
+    padding: 22px 0 0 0; }
+    .aui .dockbar .navbar-inner .container .brand h1 a, .aui .dockbar .navbar-inner .container .brand h1 .site-administration-title {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 75px; }
+  .aui .dockbar .navbar-inner .container .btn-navbar {
+    float: right; }
+  .aui .dockbar .navbar-inner .container .nav-account-controls > li:hover {
+    background-color: transparent; } }
+  @media (max-width: 979px) and (max-width: 767px) {
+    .aui .dockbar .navbar-inner .container .brand {
+      padding-top: 23px; } }
+@media (max-width: 767px) {
+  .aui .control-panel-home-actions {
+    display: none; } }
+
