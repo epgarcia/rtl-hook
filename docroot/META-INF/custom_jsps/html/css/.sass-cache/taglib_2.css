@@ -94,11 +94,10 @@
   white-space: nowrap; }
 .taglib-ratings.thumbs {
   float: left;
-  margin: 10px 0; }
+  margin: 0; }
   .taglib-ratings.thumbs .thumbrating {
     height: 20px; }
     .taglib-ratings.thumbs .thumbrating .rating-label {
-      display: inline-block;
       padding: 0 5px; }
 .taglib-ratings .rating-input-container .rating-input {
   margin-left: 1px; }
@@ -137,6 +136,24 @@
       overflow-scrolling: touch; }
       .lfr-search-container .searchcontainer-content .table {
         max-width: none; } }
+
+.taglib-search-iterator {
+  border-collapse: collapse;
+  width: 100%; }
+  .taglib-search-iterator td {
+    padding: 4px; }
+    .taglib-search-iterator td.align-center {
+      text-align: center; }
+    .taglib-search-iterator td.align-left {
+      text-align: left; }
+    .taglib-search-iterator td.align-right {
+      text-align: right; }
+    .taglib-search-iterator td.valign-bottom {
+      vertical-align: bottom; }
+    .taglib-search-iterator td.valign-middle {
+      vertical-align: middle; }
+    .taglib-search-iterator td.valign-top {
+      vertical-align: top; }
 
 .taglib-search-iterator-page-iterator-top {
   margin-bottom: 15px; }
@@ -180,11 +197,9 @@
             display: block; } }
     .taglib-page-iterator .lfr-pagination-config .lfr-pagination-delta-selector, .taglib-page-iterator .lfr-pagination-config .lfr-pagination-page-selector {
       display: inline; }
-    .taglib-page-iterator .lfr-pagination-config .lfr-pagination-delta-selector {
-      float: none; }
-      @media (max-width: 979px) {
-        .taglib-page-iterator .lfr-pagination-config .lfr-pagination-delta-selector {
-          display: none; } }
+    @media (max-width: 979px) {
+      .taglib-page-iterator .lfr-pagination-config .lfr-pagination-delta-selector {
+        display: none; } }
   .taglib-page-iterator .search-results {
     float: left;
     line-height: 46px;
@@ -227,12 +242,31 @@
   border-bottom-color: #CCC; }
 
 .taglib-social-bookmarks {
+  clear: both;
   margin-top: 1.5em; }
-  .taglib-social-bookmarks a.social-bookmark-link {
-    background-repeat: no-repeat;
-    padding-left: 20px; }
-  .taglib-social-bookmarks .social-bookmark {
+  .taglib-social-bookmarks ul {
+    display: block;
+    padding: 1em; }
+    .taglib-social-bookmarks ul:after {
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden; }
+  .taglib-social-bookmarks li {
+    float: left;
     margin-right: 1em; }
+    .taglib-social-bookmarks li .social-bookmark-link {
+      padding: 3px 2px 3px 20px; }
+
+.ie .taglib-social-bookmarks ul {
+  height: 1%; }
+
+/* Skin */
+.taglib-social-bookmarks {
+  background: #F0F5F7; }
+  .taglib-social-bookmarks li .social-bookmark-link {
+    background: url() no-repeat 0 50%; }
 
 .taglib-asset-tags-summary .tag {
   margin-bottom: 3px;
@@ -251,7 +285,7 @@
 .js .taglib-trash-empty .trash-empty-button, .js .taglib-trash-empty .trash-undo-button, .js .taglib-trash-undo .trash-empty-button, .js .taglib-trash-undo .trash-undo-button {
   display: none; }
 .js .taglib-trash-empty .trash-empty-link, .js .taglib-trash-empty .trash-undo-link, .js .taglib-trash-undo .trash-empty-link, .js .taglib-trash-undo .trash-undo-link {
-  display: inline-block; }
+  display: inline; }
 
 .taglib-user-display {
   padding: 0.5em; }

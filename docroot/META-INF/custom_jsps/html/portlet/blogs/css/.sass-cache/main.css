@@ -30,12 +30,6 @@
   background: url(@theme_image_path@/common/date.png) no-repeat 0 50%;
   color: #999;
   padding-left: 25px; }
-.portlet-blogs .entry-footer:after {
-  clear: both;
-  content: ".";
-  display: block;
-  height: 0;
-  visibility: hidden; }
 .portlet-blogs .taglib-asset-categories-summary, .portlet-blogs .taglib-asset-tags-summary {
   border-left: 1px solid #999;
   padding-left: 10px; }
@@ -94,10 +88,7 @@
   padding-left: 10px;
   padding-right: 10px; }
 .portlet-blogs .taglib-ratings.stars {
-  float: left;
   margin-top: 0.5em; }
-.portlet-blogs .taglib-social-bookmarks {
-  float: right; }
 .portlet-blogs .form-search:after {
   clear: both;
   content: ".";

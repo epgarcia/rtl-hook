@@ -114,10 +114,7 @@ body.portlet {
     background-image: url(../images/common/configuration_white.png); }
 .portlet-content .lfr-url-error {
   display: inline-block;
-  white-space: normal;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word; }
+  white-space: normal; }
 
 /* ---------- Borderless portlet ---------- */
 .portlet-borderless-container {
@@ -332,8 +329,7 @@ body.portlet {
   background-image: url();
   background-position: 5px 50%;
   background-repeat: no-repeat;
-  padding-left: 30px;
-  vertical-align: middle; }
+  padding-left: 30px; }
 .table-data tr.lfr-role-guest .first {
   background-image: url(../images/common/guest_icon.png); }
 .table-data tr.lfr-role-regular .first {

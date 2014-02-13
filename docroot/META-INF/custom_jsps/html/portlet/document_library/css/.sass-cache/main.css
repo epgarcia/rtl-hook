@@ -19,16 +19,11 @@
   border-bottom: none; }
 .portlet-document-library .document-container .search-info, .portlet-document-library-display .document-container .search-info {
   background-color: #D3E8F1;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
   margin-bottom: 0.5em;
   padding: 0.5em 0.75em;
   padding-right: 30px;
-  position: relative; }
+  position: relative;
+  word-wrap: break-word; }
   .portlet-document-library .document-container .search-info .keywords, .portlet-document-library-display .document-container .search-info .keywords {
     float: none;
     font-size: 1.4em;
@@ -153,6 +148,10 @@
   left: 0;
   position: absolute;
   right: 0; }
+.portlet-document-library .taglib-search-iterator, .portlet-document-library-display .taglib-search-iterator {
+  table-layout: fixed; }
+  .portlet-document-library .taglib-search-iterator .align-left, .portlet-document-library-display .taglib-search-iterator .align-left {
+    word-wrap: break-word; }
 .portlet-document-library .taglib-webdav, .portlet-document-library-display .taglib-webdav {
   margin-top: 3em; }
 .portlet-document-library .taglib-workflow-status, .portlet-document-library-display .taglib-workflow-status {
@@ -264,12 +263,6 @@
   .portlet-document-library .document-info .user-date, .portlet-document-library .document-info .taglib-asset-tags-summary, .portlet-document-library-display .document-info .user-date, .portlet-document-library-display .document-info .taglib-asset-tags-summary, .portlet-trash .document-info .user-date, .portlet-trash .document-info .taglib-asset-tags-summary {
     font-weight: bold; }
   .portlet-document-library .document-info .document-description, .portlet-document-library-display .document-info .document-description, .portlet-trash .document-info .document-description {
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
     margin: 8px 0;
     display: block; }
   .portlet-document-library .document-info .document-thumbnail, .portlet-document-library-display .document-info .document-thumbnail, .portlet-trash .document-info .document-thumbnail {
@@ -297,19 +290,9 @@
     background-image: url(@theme_image_path@/common/download.png); }
   .portlet-document-library .asset-details .asset-details-content .lfr-asset-ratings, .portlet-document-library-display .asset-details .asset-details-content .lfr-asset-ratings, .portlet-trash .asset-details .asset-details-content .lfr-asset-ratings {
     margin: 0 0 1em; }
-.portlet-document-library .asset-details .lfr-asset-description, .portlet-document-library-display .asset-details .lfr-asset-description, .portlet-trash .asset-details .lfr-asset-description {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
 .portlet-document-library .taglib-discussion, .portlet-document-library-display .taglib-discussion, .portlet-trash .taglib-discussion {
   width: 90%;
   margin: 0 auto; }
-  @media (max-width: 767px) {
-    .portlet-document-library .taglib-discussion, .portlet-document-library-display .taglib-discussion, .portlet-trash .taglib-discussion {
-      width: auto; } }
 .portlet-document-library .taglib-ratings.stars, .portlet-document-library-display .taglib-ratings.stars, .portlet-trash .taglib-ratings.stars {
   border: 1px solid transparent;
   display: inline-block;
@@ -338,6 +321,8 @@
   .portlet-document-library .taglib-ratings.stars .liferay-rating-score, .portlet-document-library-display .taglib-ratings.stars .liferay-rating-score, .portlet-trash .taglib-ratings.stars .liferay-rating-score {
     padding-left: 0; }
 
+.portlet-document-library .taglib-search-iterator .results-header input {
+  display: none; }
 .portlet-document-library .lfr-asset-column-details .lfr-panel {
   margin-bottom: 0.5em;
   padding-bottom: 0; }

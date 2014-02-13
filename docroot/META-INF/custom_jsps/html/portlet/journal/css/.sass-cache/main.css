@@ -61,12 +61,12 @@
   margin: 0 0 1em;
   padding: 1em; }
 .portlet-journal .lfr-panel-basic .lfr-panel-title {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
   float: none;
   position: relative;
   top: -0.5em; }
   .portlet-journal .lfr-panel-basic .lfr-panel-title span {
-    background: #FFF;
+    background: #fff;
     padding: 0 8px 0 4px;
     position: relative;
     top: 0.55em; }
@@ -77,13 +77,11 @@
   width: 100%; }
 .portlet-journal .lfr-app-column-view .lfr-app-column-view-content {
   background-color: #FAFAFA; }
-.portlet-journal .journal-article-container .lfr-ddm-container .field-wrapper[data-repeatable="true"], .portlet-journal .journal-article-container .lfr-ddm-container .field-wrapper .field-wrapper {
+.portlet-journal .journal-article-container .lfr-ddm-container .field-wrapper .field-wrapper {
   border: 1px solid #D0D0D0;
   border-left-width: 10px;
   margin: 7px 0 0 5px;
   padding: 7px 10px 10px; }
-.portlet-journal .journal-article-container .lfr-ddm-container .field-wrapper[data-repeatable="true"]:nth-of-type(even) {
-  background-color: #F5F5F5; }
 .portlet-journal .journal-article-container ul {
   margin: 0; }
 .portlet-journal .move-list .move-article, .portlet-journal .move-list .move-folder {
@@ -228,6 +226,10 @@
   left: 0;
   position: absolute;
   right: 0; }
+.portlet-journal .taglib-search-iterator {
+  table-layout: fixed; }
+  .portlet-journal .taglib-search-iterator .align-left {
+    word-wrap: break-word; }
 .portlet-journal .entry-thumbnail .taglib-workflow-status {
   left: 6px;
   margin: 0;
@@ -237,15 +239,6 @@
   .portlet-journal .entry-thumbnail .taglib-workflow-status .workflow-status {
     margin: 0;
     padding: 0; }
-.portlet-journal .app-view-entry-taglib.entry-display-style.display-icon .entry-title {
-  white-space: nowrap;
-  overflow: hidden;
-  -ms-text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  position: relative;
-  white-space: nowrap; }
 .portlet-journal .journal-article-instructions-container {
   display: normal; }
 .portlet-journal .journal-container {
@@ -383,8 +376,8 @@
   padding: 10px;
   padding-top: 0; }
 .portlet-journal-edit-mode .structure-tree .placeholder, .portlet-journal-edit-mode .structure-tree .tree-placeholder, .portlet-journal-edit-mode .structure-tree .tree-sub-placeholder {
-  background: #FFF;
-  border: 1px #CDCDCD dashed;
+  background: #fff;
+  border: 1px #cdcdcd dashed;
   height: 100px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
   opacity: 0.75; }
@@ -487,10 +480,10 @@
 .component-group.form-controls {
   border-top: 1px solid #E0ECFF; }
 .component-group .component-dragging {
-  background-color: #FFF !important; }
+  background-color: #fff !important; }
 
 .journal-article-helper {
-  background: #DEDEDE;
+  background: #dedede;
   border: 1px #555 dashed;
   cursor: move;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
@@ -576,7 +569,7 @@
   .journal-template-error .scroll-pane .inner-scroll-pane {
     min-width: 104%; }
   .journal-template-error .scroll-pane .error-line {
-    background: #FDD; }
+    background: #fdd; }
   .journal-template-error .scroll-pane pre {
     margin: 0;
     white-space: pre; }

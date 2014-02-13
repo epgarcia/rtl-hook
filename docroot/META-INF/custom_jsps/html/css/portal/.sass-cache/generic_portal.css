@@ -7,18 +7,12 @@ td.lfr-middle {
 
 .definition-of-terms {
   margin-bottom: 2em; }
-  .definition-of-terms dd:after {
-    content: '';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden; }
+  .definition-of-terms dd {
+    margin-left: 20em; }
   .definition-of-terms dl {
     margin-left: 0; }
   .definition-of-terms dt {
-    float: left;
-    width: 25em;
-    word-break: break-word; }
+    float: left; }
 
 .dialog-iframe-bd {
   overflow-x: hidden;
@@ -30,7 +24,6 @@ td.lfr-middle {
   overflow: hidden;
   overflow-x: auto;
   white-space: pre;
-  -ms-word-break: normal;
   word-break: normal; }
   .lfr-code table {
     table-layout: auto;
@@ -111,8 +104,7 @@ img.icon {
 
 /* Skin */
 .definition-of-terms dt {
-  color: #333;
-  font-weight: normal; }
+  font-weight: bold; }
 
 .lfr-code {
   background: #FFF;
@@ -142,10 +134,4 @@ img.icon {
 
 .lfr-token-close:hover {
   text-decoration: none; }
-
-@media (max-width: 767px) {
-  .definition-of-terms dd {
-    margin-left: 10px; }
-  .definition-of-terms dt {
-    float: none; } }
 

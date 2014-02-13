@@ -11,11 +11,10 @@
   white-space: nowrap; }
 .taglib-ratings.thumbs {
   float: left;
-  margin: 10px 0; }
+  margin: 0; }
   .taglib-ratings.thumbs .thumbrating {
     height: 20px; }
     .taglib-ratings.thumbs .thumbrating .rating-label {
-      display: inline-block;
       padding: 0 5px; }
 .taglib-ratings .rating-input-container .rating-input {
   margin-left: 1px; }

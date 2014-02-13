@@ -28,9 +28,6 @@
     width: 100%; }
 .aui .lfr-pagination .lfr-pagination-delta-selector {
   float: left; }
-  @media (max-width: 979px) {
-    .aui .lfr-pagination .lfr-pagination-delta-selector .lfr-icon-menu-text {
-      display: none; } }
 .aui .lfr-pagination .pagination-content {
   float: right; }
 
@@ -391,9 +388,6 @@
   border-width: 0 1px 1px;
   margin-bottom: 0.5em; }
 
-.lfr-tags-selector-content .toolbar {
-  position: static; }
-
 .lfr-tag-selector-popup {
   width: 250px; }
   .lfr-tag-selector-popup fieldset {
@@ -520,8 +514,7 @@
     .lfr-translation-manager .lfr-translation-manager-translation img {
       margin-right: 0.3em; }
   .lfr-translation-manager .lfr-translation-manager-delete-translation {
-    display: inline-block;
-    padding: 0 2px; }
+    display: inline-block; }
 
 .lfr-translation-manager-selector, .lfr-translation-manager-add-menu {
   display: inline-block;
@@ -561,14 +554,6 @@
   padding-left: 0; }
   .lfr-tree li ul li, .lfr-tree li.tree-item {
     padding-left: 0; }
-  .lfr-tree li.tree-node .tree-node-content {
-    white-space: nowrap;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
-    .lfr-tree li.tree-node .tree-node-content .tree-label {
-      display: inline; }
   .lfr-tree li.tree-item {
     padding-left: 5px; }
     .lfr-tree li.tree-item li {

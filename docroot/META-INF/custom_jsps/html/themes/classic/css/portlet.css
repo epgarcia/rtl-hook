@@ -184,8 +184,6 @@ body.portlet {
 	.lfr-url-error {
 		display: inline-block;
 		white-space: normal;
-
-		@include word-break(break-all);
 	}
 }
 
@@ -596,7 +594,6 @@ body.portlet {
 		background-position: 5px 50%;
 		background-repeat: no-repeat;
 		padding-left: 30px;
-		vertical-align: middle;
 	}
 
 	&.lfr-role-guest .first {

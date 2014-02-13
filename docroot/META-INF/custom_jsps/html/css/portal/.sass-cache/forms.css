@@ -4,24 +4,6 @@
 .button-holder {
   margin: 20px 0; }
 
-.form-search .input-append {
-  padding-left: 40px;
-  position: relative; }
-  .form-search .input-append .advanced-search .toggle-advanced {
-    cursor: pointer;
-    left: 40px;
-    line-height: 1;
-    padding: 8px 10px;
-    position: absolute;
-    top: 0;
-    z-index: 100; }
-    .form-search .input-append .advanced-search .toggle-advanced .caret {
-      margin-top: 7px; }
-    .form-search .input-append .advanced-search .toggle-advanced .icon-search {
-      font-size: 14px; }
-  .form-search .input-append .advanced-search .search-query {
-    padding-left: 40px; }
-
 .input-flex-add-on {
   width: 100%; }
   .input-flex-add-on.input-append input[type="text"] {
@@ -33,9 +15,7 @@
     height: auto;
     text-align: left;
     white-space: normal;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word; }
+    word-break: break-all; }
   .input-flex-add-on input {
     float: left;
     margin-top: -1px; }
@@ -77,10 +57,10 @@
   margin-top: 6px; }
 
 .lfr-input-resource {
-  width: 210px; }
+  width: 350px; }
 
 .lfr-input-text, .form .fieldset .field.lfr-input-text-container input {
-  max-width: 210px;
+  max-width: 350px;
   width: 100%; }
 
 .lfr-textarea, .form .fieldset .field.lfr-textarea-container textarea {
@@ -111,7 +91,4 @@
     font-size: 18px;
     height: auto;
     line-height: normal; } }
-@media (max-width: 979px) and (max-width: 767px) {
-  .aui input[type=file] {
-    width: 220px; } }
 

@@ -18,11 +18,4 @@
   background: #eee;
   border-top: 1px solid #BFBFBF;
   padding: 10px; }
-.portlet-login .signed-in {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
 

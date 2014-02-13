@@ -169,20 +169,6 @@
     height: 378px;
     min-height: 100%;
     width: 99.5%; }
-.portlet-asset-publisher .category-title, .portlet-message-boards .category-title, .portlet-trash .category-title {
-  white-space: nowrap;
-  overflow: hidden;
-  -ms-text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  font-weight: bold; }
-.portlet-asset-publisher .category-description, .portlet-message-boards .category-description, .portlet-trash .category-description {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
 .portlet-asset-publisher .subcategories, .portlet-message-boards .subcategories, .portlet-trash .subcategories {
   text-decoration: underline; }
 .portlet-asset-publisher .taglib-flags, .portlet-message-boards .taglib-flags, .portlet-trash .taglib-flags {

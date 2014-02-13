@@ -15,12 +15,6 @@
     display: block;
     padding: 6px 8px;
     text-decoration: none; }
-  .navigation-pane .app-view-navigation-entry .browse-folder, .navigation-pane .app-view-navigation-entry .nav-item-label {
-    white-space: nowrap;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
   .navigation-pane .app-view-navigation-entry .overlay.entry-action {
     bottom: 0;
     display: block;

@@ -31,10 +31,6 @@
       border-color: #F00; }
   .portlet-quick-note a.close-note {
     float: right; }
-  .portlet-quick-note .note-content {
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word; }
 
 .ie6 .portlet-quick-note textarea {
   height: expression(this.height < 100 ? '100px' : this.height); }

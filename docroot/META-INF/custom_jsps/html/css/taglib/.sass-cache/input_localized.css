@@ -1,6 +1,6 @@
 .input-localized .palette-container {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5; }
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2; }
 .input-localized.input-localized-focused .palette-container {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
@@ -35,19 +35,11 @@
   -webkit-box-shadow: 0 0 3px #dddddd;
   -moz-box-shadow: 0 0 3px #dddddd;
   box-shadow: 0 0 3px #dddddd; }
-  .input-localized .lfr-input-localized .lfr-input-localized-state.lfr-input-localized-state-error {
-    -webkit-box-shadow: 0 0 3px #ff0047;
-    -moz-box-shadow: 0 0 3px #ff0047;
-    box-shadow: 0 0 3px #ff0047;
-    background: #FF0047; }
 .input-localized .palette-item-selected .lfr-input-localized-state {
+  background: #27c1f2;
   -webkit-box-shadow: 0 0 3px #27c1f2;
   -moz-box-shadow: 0 0 3px #27c1f2;
-  box-shadow: 0 0 3px #27c1f2;
-  background: #27c1f2; }
-.input-localized.input-localized-focused .palette-item-selected .lfr-input-localized-state {
-  height: 6px;
-  width: 6px; }
+  box-shadow: 0 0 3px #27c1f2; }
 .input-localized .palette-item-inner {
   display: block;
   height: 16px;

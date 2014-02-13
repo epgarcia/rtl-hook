@@ -51,14 +51,6 @@
 		padding-left: 25px;
 	}
 
-	.entry-footer:after {
-		clear: both;
-		content: ".";
-		display: block;
-		height: 0;
-		visibility: hidden;
-	}
-
 	.taglib-asset-categories-summary, .taglib-asset-tags-summary {
 		border-left: 1px solid #999;
 		padding-left: 10px;
@@ -149,12 +141,7 @@
 	}
 
 	.taglib-ratings.stars {
-		float: left;
 		margin-top: 0.5em;
-	}
-
-	.taglib-social-bookmarks {
-		float: right;
 	}
 
 	.form-search:after {

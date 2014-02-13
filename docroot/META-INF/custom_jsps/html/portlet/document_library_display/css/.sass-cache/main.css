@@ -1,24 +1,16 @@
-.portlet-document-library-display .entry-metadata .entry-title {
+.portlet-document-library-display .entry-title {
   display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  -ms-text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
   font-size: 1.15em;
-  font-weight: bold; }
-.portlet-document-library-display .entry-metadata .entry-description {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
+  font-weight: bold;
+  padding: 1.4em 0 0; }
 .portlet-document-library-display .view-folders .repository-error {
   background-color: #FDD;
   color: #5B677D; }
   .portlet-document-library-display .view-folders .repository-error td {
     background-color: #FDD; }
+.portlet-document-library-display .file-entry-list-description {
+  font-style: italic;
+  margin-left: 10px; }
 .portlet-document-library-display .file-entry-tags {
   margin-top: 5px; }
 .portlet-document-library-display .folder-search {
@@ -32,8 +24,11 @@
   margin-right: 1em;
   position: relative; }
   .portlet-document-library-display .entry-thumbnail .thumbnail {
+    float: left;
     max-height: 128px;
     max-width: 128px; }
+.portlet-document-library-display .entry-title {
+  float: left; }
 .portlet-document-library-display .taglib-webdav {
   margin-top: 3em; }
 .portlet-document-library-display .taglib-workflow-status {

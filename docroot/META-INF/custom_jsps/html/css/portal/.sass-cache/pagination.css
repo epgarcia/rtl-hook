@@ -28,9 +28,6 @@
     width: 100%; }
 .aui .lfr-pagination .lfr-pagination-delta-selector {
   float: left; }
-  @media (max-width: 979px) {
-    .aui .lfr-pagination .lfr-pagination-delta-selector .lfr-icon-menu-text {
-      display: none; } }
 .aui .lfr-pagination .pagination-content {
   float: right; }
 

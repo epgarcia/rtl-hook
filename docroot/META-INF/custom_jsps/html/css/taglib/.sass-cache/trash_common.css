@@ -6,5 +6,5 @@
 .js .taglib-trash-empty .trash-empty-button, .js .taglib-trash-empty .trash-undo-button, .js .taglib-trash-undo .trash-empty-button, .js .taglib-trash-undo .trash-undo-button {
   display: none; }
 .js .taglib-trash-empty .trash-empty-link, .js .taglib-trash-empty .trash-undo-link, .js .taglib-trash-undo .trash-empty-link, .js .taglib-trash-undo .trash-undo-link {
-  display: inline-block; }
+  display: inline; }
 

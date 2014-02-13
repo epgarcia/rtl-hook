@@ -59,9 +59,6 @@
   .taglib-discussion .lfr-discussion-actions li a {
     clip: rect(0 0 0 0);
     position: absolute; }
-    @media (max-width: 979px) {
-      .taglib-discussion .lfr-discussion-actions li a {
-        position: static; } }
   .taglib-discussion .lfr-discussion-actions a.rating-element {
     margin: 0 1px; }
 .taglib-discussion .lfr-discussion:hover .lfr-discussion-actions li a, .taglib-discussion .lfr-discussion .lfr-discussion-actions li a:focus {
@@ -94,17 +91,6 @@
     .taglib-discussion .lfr-discussion-form-container .lfr-discussion-form .button-holder {
       margin: 5px 0 0; }
 
-.lfr-discussion-reply.popover {
-  max-width: none; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-user-avatar {
-    float: left;
-    margin-right: 15px;
-    margin-top: 3px; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-user-name {
-    font-weight: bold; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-content {
-    margin-top: 5px; }
-
 .lfr-discussion-controls:after {
   clear: both;
   content: "";
@@ -130,8 +116,6 @@
 .taglib-discussion .lfr-discussion-posted-on {
   color: #999;
   font-size: .9em; }
-  .taglib-discussion .lfr-discussion-posted-on .lfr-discussion-parent-link {
-    cursor: pointer; }
 .taglib-discussion .lfr-discussion-actions li a, .taglib-discussion .lfr-discussion-actions li a span {
   text-decoration: none; }
 .taglib-discussion .lfr-discussion-actions li a:hover span, .taglib-discussion .lfr-discussion-actions li a:focus span {

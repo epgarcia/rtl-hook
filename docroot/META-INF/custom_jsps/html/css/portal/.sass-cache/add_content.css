@@ -21,8 +21,6 @@
     padding-right: 0; }
     .lfr-add-dialog .add-content-menu .accordion .nav-list .lfr-content-item, .lfr-add-panel .add-content-menu .accordion .nav-list .lfr-content-item {
       padding-left: 15px; }
-      .lfr-add-dialog .add-content-menu .accordion .nav-list .lfr-content-item.lfr-archived-setup, .lfr-add-panel .add-content-menu .accordion .nav-list .lfr-content-item.lfr-archived-setup {
-        padding-left: 30px; }
 .lfr-add-dialog .add-content-menu .btn-toolbar .control-group-inline, .lfr-add-panel .add-content-menu .btn-toolbar .control-group-inline {
   display: inline; }
   .lfr-add-dialog .add-content-menu .btn-toolbar .control-group-inline .search-query, .lfr-add-dialog .add-content-menu .btn-toolbar .control-group-inline .aui-field-select, .lfr-add-panel .add-content-menu .btn-toolbar .control-group-inline .search-query, .lfr-add-panel .add-content-menu .btn-toolbar .control-group-inline .aui-field-select {
@@ -73,6 +71,8 @@
     cursor: default; }
   .lfr-add-dialog .add-content-menu .lfr-content-item .lfr-portlet-used.add-content-item, .lfr-add-panel .add-content-menu .lfr-content-item .lfr-portlet-used.add-content-item {
     display: none; }
+  .lfr-add-dialog .add-content-menu .lfr-content-item.lfr-archived-setup, .lfr-add-panel .add-content-menu .lfr-content-item.lfr-archived-setup {
+    padding-left: 30px; }
 .lfr-add-dialog .add-content-menu .lfr-page-template, .lfr-add-panel .add-content-menu .lfr-page-template {
   cursor: pointer;
   margin-bottom: 15px; }
@@ -86,13 +86,11 @@
       margin-left: 6px;
       margin-right: 6px; }
     .lfr-add-dialog .add-content-menu .lfr-page-template .lfr-page-template-title.toggler-header-collapsed .lfr-page-template-description, .lfr-add-panel .add-content-menu .lfr-page-template .lfr-page-template-title.toggler-header-collapsed .lfr-page-template-description {
-      white-space: nowrap;
-      overflow: hidden;
-      -ms-text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      text-overflow: ellipsis;
       height: 1.6em;
+      overflow: hidden;
       padding-left: 26px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       width: 285px; }
     .lfr-add-dialog .add-content-menu .lfr-page-template .lfr-page-template-title.toggler-header-expanded .lfr-page-template-description, .lfr-add-panel .add-content-menu .lfr-page-template .lfr-page-template-title.toggler-header-expanded .lfr-page-template-description {
       padding-left: 26px;
@@ -106,11 +104,9 @@
   .lfr-add-dialog .add-content-menu .add-content-descriptive .lfr-content-item, .lfr-add-dialog .add-content-menu .add-content-icon .lfr-content-item, .lfr-add-panel .add-content-menu .add-content-descriptive .lfr-content-item, .lfr-add-panel .add-content-menu .add-content-icon .lfr-content-item {
     padding: 2%; }
   .lfr-add-dialog .add-content-menu .add-content-descriptive .add-content-details .add-content-title, .lfr-add-dialog .add-content-menu .add-content-descriptive .add-content-details .add-content-description, .lfr-add-dialog .add-content-menu .add-content-icon .add-content-details .add-content-title, .lfr-add-dialog .add-content-menu .add-content-icon .add-content-details .add-content-description, .lfr-add-panel .add-content-menu .add-content-descriptive .add-content-details .add-content-title, .lfr-add-panel .add-content-menu .add-content-descriptive .add-content-details .add-content-description, .lfr-add-panel .add-content-menu .add-content-icon .add-content-details .add-content-title, .lfr-add-panel .add-content-menu .add-content-icon .add-content-details .add-content-description {
-    white-space: nowrap;
     overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
+    white-space: nowrap;
     width: 100%; }
 .lfr-add-dialog .add-content-menu .add-content-descriptive .lfr-content-item, .lfr-add-panel .add-content-menu .add-content-descriptive .lfr-content-item {
   width: auto; }
@@ -137,20 +133,21 @@
 .lfr-add-content-preview .add-button-preview {
   float: right;
   margin-bottom: 10px; }
+.lfr-add-content-preview .asset-information {
+  margin-bottom: 20px; }
 .lfr-add-content-preview .asset-image-preview {
+  margin-bottom: 5px;
   text-align: center; }
   .lfr-add-content-preview .asset-image-preview img {
     max-width: 230px; }
-.lfr-add-content-preview .asset-information, .lfr-add-content-preview .asset-metadata, .lfr-add-content-preview .asset-summary {
+.lfr-add-content-preview .asset-metadata {
   margin-bottom: 20px; }
-.lfr-add-content-preview .asset-image-preview, .lfr-add-content-preview .asset-metadata .categories, .lfr-add-content-preview .asset-title {
+  .lfr-add-content-preview .asset-metadata .categories {
+    margin-bottom: 5px; }
+.lfr-add-content-preview .asset-summary {
+  margin-bottom: 20px; }
+.lfr-add-content-preview .asset-title {
   margin-bottom: 5px; }
-.lfr-add-content-preview .asset-summary, .lfr-add-content-preview .asset-title {
-  white-space: nowrap;
-  overflow: hidden;
-  -ms-text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis; }
 
 /*Skin*/
 .lfr-add-panel .add-content-menu .lfr-add-apps-legend {
@@ -166,12 +163,12 @@
   line-height: 1.5em; }
 .lfr-add-panel .add-content-menu .lfr-add-page-toolbar {
   background-color: #FFF; }
-.lfr-add-panel .add-content-menu .lfr-content-item {
+.lfr-add-panel .add-content-menu lfr-content-item {
   color: #3EA9DB; }
-  .lfr-add-panel .add-content-menu .lfr-content-item:hover {
+  .lfr-add-panel .add-content-menu lfr-content-item:hover {
     background-color: #EEE;
     color: #006076; }
-  .lfr-add-panel .add-content-menu .lfr-content-item.lfr-portlet-used {
+  .lfr-add-panel .add-content-menu lfr-content-item.lfr-portlet-used {
     color: #BBB; }
 .lfr-add-panel .add-content-menu .lfr-install-more {
   text-align: center; }

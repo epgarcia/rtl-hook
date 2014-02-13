@@ -14,6 +14,39 @@
 	}
 }
 
+.taglib-search-iterator {
+	border-collapse: collapse;
+	width: 100%;
+
+	td {
+		padding: 4px;
+
+		&.align-center {
+			text-align: center;
+		}
+
+		&.align-left {
+			text-align: left;
+		}
+
+		&.align-right {
+			text-align: right;
+		}
+
+		&.valign-bottom {
+			vertical-align: bottom;
+		}
+
+		&.valign-middle {
+			vertical-align: middle;
+		}
+
+		&.valign-top {
+			vertical-align: top;
+		}
+	}
+}
+
 .taglib-search-iterator-page-iterator-top {
 	margin-bottom: 15px;
 }
@@ -77,10 +110,8 @@
 			display: inline;
 		}
 
-		.lfr-pagination-delta-selector {
-			float: none;
-
-			@include respond-to(phone, tablet) {
+		@include respond-to(phone, tablet) {
+			.lfr-pagination-delta-selector {
 				display: none;
 			}
 		}

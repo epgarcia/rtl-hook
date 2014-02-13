@@ -1,5 +1,3 @@
-@import "compass";
-
 .navigation-pane {
 	.body-row {
 		height: 100%;
@@ -25,10 +23,6 @@
 			display: block;
 			padding: 6px 8px;
 			text-decoration: none;
-		}
-
-		.browse-folder, .nav-item-label {
-			@include ellipsis;
 		}
 
 		.overlay.entry-action {

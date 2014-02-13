@@ -13,9 +13,7 @@
     .aui .btn [class^="icon-"], .aui .btn [class*=" icon-"] {
       margin-top: 4px; }
   .aui .dropup .btn .caret {
-    border-bottom-width: 5px; }
-  .aui button.close, .aui button.btn.close {
-    width: auto; } }
+    border-bottom-width: 5px; } }
 @media (max-width: 979px) and (max-width: 767px) {
   .aui .btn-group, .aui .button-holder {
     display: block;
@@ -28,12 +26,4 @@
       display: block;
       margin-top: 5px;
       width: 100%; } }
-@media (max-width: 979px) and (max-width: 979px) {
-  .aui .form-search .input-append .btn {
-    display: inline-block;
-    padding: 5px 19px 6px; } }
-  @media (max-width: 979px) and (max-width: 979px) and (max-width: 767px) {
-    .aui .form-search .input-append .btn {
-      margin-top: 0;
-      width: auto; } }
 

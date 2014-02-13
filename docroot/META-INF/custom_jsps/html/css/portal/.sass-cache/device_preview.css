@@ -19,8 +19,6 @@
 
 .lfr-device .modal-header {
   display: none; }
-.lfr-device.autosize {
-  border-width: 0; }
 .lfr-device .lfr-device-size-status {
   position: absolute;
   width: 100%; }

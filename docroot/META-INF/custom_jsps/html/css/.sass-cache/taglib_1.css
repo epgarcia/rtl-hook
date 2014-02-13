@@ -105,7 +105,7 @@
 .app-view-entry-taglib.entry-display-style.display-icon {
   display: inline-block;
   float: left;
-  margin: 5px;
+  margin: 0 5px;
   padding: 10px 0;
   position: relative;
   vertical-align: top;
@@ -151,11 +151,7 @@
     height: 0;
     visibility: hidden; }
   .app-view-entry-taglib.entry-display-style.display-descriptive .entry-title {
-    white-space: nowrap;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
+    word-wrap: normal; }
   @media (max-width: 979px) {
     .app-view-entry-taglib.entry-display-style.display-descriptive .folder-action a, .app-view-entry-taglib.entry-display-style.display-descriptive .entry-action a {
       padding: 10px 12px;
@@ -199,12 +195,6 @@
     display: block;
     padding: 6px 8px;
     text-decoration: none; }
-  .navigation-pane .app-view-navigation-entry .browse-folder, .navigation-pane .app-view-navigation-entry .nav-item-label {
-    white-space: nowrap;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
   .navigation-pane .app-view-navigation-entry .overlay.entry-action {
     bottom: 0;
     display: block;
@@ -372,9 +362,7 @@
     .aui .btn [class^="icon-"], .aui .btn [class*=" icon-"] {
       margin-top: 4px; }
   .aui .dropup .btn .caret {
-    border-bottom-width: 5px; }
-  .aui button.close, .aui button.btn.close {
-    width: auto; } }
+    border-bottom-width: 5px; } }
 @media (max-width: 979px) and (max-width: 767px) {
   .aui .btn-group, .aui .button-holder {
     display: block;
@@ -387,14 +375,6 @@
       display: block;
       margin-top: 5px;
       width: 100%; } }
-@media (max-width: 979px) and (max-width: 979px) {
-  .aui .form-search .input-append .btn {
-    display: inline-block;
-    padding: 5px 19px 6px; } }
-  @media (max-width: 979px) and (max-width: 979px) and (max-width: 767px) {
-    .aui .form-search .input-append .btn {
-      margin-top: 0;
-      width: auto; } }
 .taglib-calendar {
   width: 190px; }
   .taglib-calendar table {
@@ -576,9 +556,6 @@
   .taglib-discussion .lfr-discussion-actions li a {
     clip: rect(0 0 0 0);
     position: absolute; }
-    @media (max-width: 979px) {
-      .taglib-discussion .lfr-discussion-actions li a {
-        position: static; } }
   .taglib-discussion .lfr-discussion-actions a.rating-element {
     margin: 0 1px; }
 .taglib-discussion .lfr-discussion:hover .lfr-discussion-actions li a, .taglib-discussion .lfr-discussion .lfr-discussion-actions li a:focus {
@@ -611,17 +588,6 @@
     .taglib-discussion .lfr-discussion-form-container .lfr-discussion-form .button-holder {
       margin: 5px 0 0; }
 
-.lfr-discussion-reply.popover {
-  max-width: none; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-user-avatar {
-    float: left;
-    margin-right: 15px;
-    margin-top: 3px; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-user-name {
-    font-weight: bold; }
-  .lfr-discussion-reply.popover .lfr-discussion-reply-content {
-    margin-top: 5px; }
-
 .lfr-discussion-controls:after {
   clear: both;
   content: "";
@@ -647,8 +613,6 @@
 .taglib-discussion .lfr-discussion-posted-on {
   color: #999;
   font-size: .9em; }
-  .taglib-discussion .lfr-discussion-posted-on .lfr-discussion-parent-link {
-    cursor: pointer; }
 .taglib-discussion .lfr-discussion-actions li a, .taglib-discussion .lfr-discussion-actions li a span {
   text-decoration: none; }
 .taglib-discussion .lfr-discussion-actions li a:hover span, .taglib-discussion .lfr-discussion-actions li a:focus span {
@@ -680,11 +644,6 @@
   border-bottom: 1px solid transparent;
   margin-bottom: 1em; }
   .taglib-header .header-title {
-    white-space: nowrap;
-    overflow: hidden;
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
     margin: 0.1em; }
   .taglib-header .header-back-to a {
     float: left;
@@ -757,8 +716,8 @@ a.taglib-icon.btn:focus .taglib-text, a.taglib-icon.btn:hover .taglib-text {
   width: auto; }
 
 .input-localized .palette-container {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5; }
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2; }
 .input-localized.input-localized-focused .palette-container {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
@@ -793,19 +752,11 @@ a.taglib-icon.btn:focus .taglib-text, a.taglib-icon.btn:hover .taglib-text {
   -webkit-box-shadow: 0 0 3px #dddddd;
   -moz-box-shadow: 0 0 3px #dddddd;
   box-shadow: 0 0 3px #dddddd; }
-  .input-localized .lfr-input-localized .lfr-input-localized-state.lfr-input-localized-state-error {
-    -webkit-box-shadow: 0 0 3px #ff0047;
-    -moz-box-shadow: 0 0 3px #ff0047;
-    box-shadow: 0 0 3px #ff0047;
-    background: #FF0047; }
 .input-localized .palette-item-selected .lfr-input-localized-state {
+  background: #27c1f2;
   -webkit-box-shadow: 0 0 3px #27c1f2;
   -moz-box-shadow: 0 0 3px #27c1f2;
-  box-shadow: 0 0 3px #27c1f2;
-  background: #27c1f2; }
-.input-localized.input-localized-focused .palette-item-selected .lfr-input-localized-state {
-  height: 6px;
-  width: 6px; }
+  box-shadow: 0 0 3px #27c1f2; }
 .input-localized .palette-item-inner {
   display: block;
   height: 16px;

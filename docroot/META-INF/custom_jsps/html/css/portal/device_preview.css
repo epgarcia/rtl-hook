@@ -37,10 +37,6 @@
 		display: none;
 	}
 
-	&.autosize {
-		border-width: 0;
-	}
-
 	.lfr-device-size-status {
 		position: absolute;
 		width: 100%;

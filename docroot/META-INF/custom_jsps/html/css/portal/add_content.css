@@ -35,10 +35,6 @@
 
 				.lfr-content-item {
 					padding-left: 15px;
-
-					&.lfr-archived-setup {
-						padding-left: 30px;
-					}
 				}
 			}
 		}
@@ -143,6 +139,10 @@
 					display: none;
 				}
 			}
+
+			&.lfr-archived-setup {
+				padding-left: 30px;
+			}
 		}
 
 		.lfr-page-template {
@@ -164,10 +164,11 @@
 				}
 
 				&.toggler-header-collapsed .lfr-page-template-description {
-					@include ellipsis;
-
 					height: 1.6em;
+					overflow: hidden;
 					padding-left: 26px;
+					text-overflow: ellipsis;
+					white-space: nowrap;
 					width: 285px;
 				}
 
@@ -193,8 +194,9 @@
 
 			.add-content-details {
 				.add-content-title, .add-content-description {
-					@include ellipsis;
-
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
 					width: 100%;
 				}
 			}
@@ -248,7 +250,12 @@
 		margin-bottom: 10px;
 	}
 
+	.asset-information {
+		margin-bottom: 20px;
+	}
+
 	.asset-image-preview {
+		margin-bottom: 5px;
 		text-align: center;
 
 		img {
@@ -256,16 +263,20 @@
 		}
 	}
 
-	.asset-information, .asset-metadata, .asset-summary {
+	.asset-metadata {
+		margin-bottom: 20px;
+
+		.categories {
+			margin-bottom: 5px;
+		}
+	}
+
+	.asset-summary {
 		margin-bottom: 20px;
 	}
 
-	.asset-image-preview, .asset-metadata .categories, .asset-title {
+	.asset-title {
 		margin-bottom: 5px;
-	}
-
-	.asset-summary, .asset-title {
-		@include ellipsis;
 	}
 }
 
@@ -296,7 +307,7 @@
 			background-color: #FFF;
 		}
 
-		.lfr-content-item {
+		lfr-content-item {
 			color: #3EA9DB;
 
 			&:hover {

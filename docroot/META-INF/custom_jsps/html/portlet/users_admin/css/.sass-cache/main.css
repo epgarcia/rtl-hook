@@ -97,8 +97,6 @@
 .portlet-users-admin .form-navigator .user-info .user-logo, .portlet-users-admin .form-navigator .user-info .organization-logo, .portlet-users-admin .form-navigator .organization-info .user-logo, .portlet-users-admin .form-navigator .organization-info .organization-logo {
   margin-right: 5px;
   width: 35px; }
-.portlet-users-admin .form-navigator .user-info .user-name, .portlet-users-admin .form-navigator .organization-info .user-name {
-  word-wrap: break-word; }
 .portlet-users-admin .membership-restriction-container {
   margin-top: 1em; }
 .portlet-users-admin .instant-messenger, .portlet-users-admin .social-network {

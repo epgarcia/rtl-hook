@@ -29,10 +29,7 @@
   border-collapse: collapse;
   clear: both; }
   .lfr-table tr td, .lfr-table tr th {
-    padding: 0 5px;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word; }
+    padding: 0 5px; }
     .lfr-table tr td:first-child, .lfr-table tr td.first-child, .lfr-table tr th:first-child, .lfr-table tr th.first-child {
       padding-left: 0; }
     .lfr-table tr td:last-child, .lfr-table tr td.last-child, .lfr-table tr th:last-child, .lfr-table tr th.last-child {
@@ -47,11 +44,23 @@
 .portlet-toolbar {
   margin-bottom: 1.5em; }
 
+.lfr-change-logo {
+  display: block;
+  margin-bottom: 10px; }
+
+.lfr-portrait-preview:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+.lfr-portrait-preview .lfr-portrait-preview-img.loading {
+  border: 1px solid transparent;
+  min-height: 50px;
+  min-width: 50px; }
+
 .ie .float-container {
   height: 1%; }
-
-.ie8 .lfr-portrait-preview {
-  float: left; }
 
 .gecko .lfr-portrait-editor {
   display: table-column; }
@@ -66,6 +75,13 @@
 .lfr-checkbox-preselected, .lfr-configurator-visibility {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5; }
+
+.lfr-change-logo {
+  background: url(@theme_image_path@/common/checkerboard.png) repeat 50%; }
+
+.lfr-portrait-preview .lfr-portrait-preview-img.loading {
+  background: white url(@theme_image_path@/application/loading_indicator.gif) no-repeat 50%;
+  border-color: #ccc; }
 
 .ie .lfr-checkbox-preselected, .ie .lfr-configurator-visibility, .ie .lfr-configurator-visibility .portlet-topper {
   zoom: 1; }
